@@ -1,0 +1,15 @@
+{
+    "n_resblocks":3,
+    "n_landmarks":15,
+    "n_features":2048,
+    "pretrained_respose":"models/itop_models/model_respose/pm_model_it_00028000.pm",
+    "landmark_conf":0.3,
+    "pretrained_hgpose": "models/itop_models/model_hgpose/pm_model_it_00038000.pm",
+    "prior_mean": "stats/itop_stats/mean_pose_limb.npy",
+    "prior_var": "stats/itop_stats/var_pose_limb.npy",
+    "reg3d_input_stats": "stats/itop_stats/train_input_stats.json",
+    "reg3d_output_stats": "stats/itop_stats/train_output_stats.json",
+    "matrix_calibration":[[ 285.7143,    0.0    ,  160.0    ],
+                          [   0.0    , -285.7143,  120.0    ],
+                          [   0.0    ,    0.0    ,    1.0    ]]
+}

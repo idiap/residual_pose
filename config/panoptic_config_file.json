@@ -1,0 +1,15 @@
+{
+    "n_resblocks":3,
+    "n_landmarks":15,
+    "n_features":2048,
+    "pretrained_respose":"models/panoptic_models/model_respose/pm_model_it_00016000.pm",
+    "landmark_conf":0.3,
+    "pretrained_hgpose": "models/panoptic_models/model_hgpose/pm_model_it_00020000.pm",
+    "prior_mean": "stats/panoptic_stats/mean_pose_limb.npy",
+    "prior_var": "stats/panoptic_stats/var_pose_limb.npy",
+    "reg3d_input_stats": "stats/panoptic_stats/train_input_stats.json",
+    "reg3d_output_stats": "stats/panoptic_stats/train_output_stats.json",
+    "matrix_calibration": [[364.8507649, 0.0,         249.1845476],
+                           [0.0,         364.8507649, 202.5246031],
+                           [0.0,         0.0,         1.0 ]] 
+}
